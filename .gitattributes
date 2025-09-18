@@ -21,3 +21,19 @@ build/** binary
 *.jpeg binary
 *.gif binary
 *.ico binary
+
+
+
+# Ignore platform-specific native code for GitHub language stats
+ios/** linguist-generated=true
+android/** linguist-generated=true
+windows/** linguist-generated=true
+linux/** linguist-generated=true
+macos/** linguist-generated=true
+
+# Treat Dart files as text
+*.dart text
+*.yaml text
+*.yml text
+*.json text
+*.md text
