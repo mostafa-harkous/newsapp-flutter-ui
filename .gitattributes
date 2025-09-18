@@ -1,0 +1,23 @@
+# Treat Dart files as text
+*.dart text eol=lf
+
+# Flutter & Dart build outputs
+build/** binary
+*.lock binary
+
+# IDE/editor files
+.vscode/** text eol=lf
+.idea/** text eol=lf
+
+# Other common text files
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Images and other binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
